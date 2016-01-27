@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Account
+END
+ChangePasswordSuccess.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Account/ChangePasswordSuccess.aspx
+END
+ChangePasswordSuccess.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Account/ChangePasswordSuccess.aspx.designer.cs
+END
+Register.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Account/Register.aspx
+END
+ChangePasswordSuccess.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Account/ChangePasswordSuccess.aspx.cs
+END
+Register.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Account/Register.aspx.designer.cs
+END
+Web.config
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Account/Web.config
+END
+Login.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Account/Login.aspx
+END
+Register.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Account/Register.aspx.cs
+END
+ChangePassword.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Account/ChangePassword.aspx
+END
+ChangePassword.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Account/ChangePassword.aspx.designer.cs
+END
+Login.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Account/Login.aspx.designer.cs
+END
+Login.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Account/Login.aspx.cs
+END
+ChangePassword.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Account/ChangePassword.aspx.cs
+END

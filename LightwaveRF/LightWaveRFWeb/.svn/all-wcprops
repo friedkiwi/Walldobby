@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb
+END
+Web.config
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Web.config
+END
+About.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/About.aspx
+END
+About.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/About.aspx.designer.cs
+END
+About.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/About.aspx.cs
+END
+Global.asax
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Global.asax
+END
+Site.Master
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Site.Master
+END
+Default.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Default.aspx
+END
+Global.asax.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Global.asax.cs
+END
+Web.Release.config
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Web.Release.config
+END
+Site.Master.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Site.Master.designer.cs
+END
+Default.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Default.aspx.designer.cs
+END
+Site.Master.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Site.Master.cs
+END
+Default.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Default.aspx.cs
+END
+Web.Debug.config
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/Web.Debug.config
+END
+LightWaveRFWeb.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/47/trunk/c%23/LightWaveRFWeb/LightWaveRFWeb.csproj
+END

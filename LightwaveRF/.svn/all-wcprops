@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/110/trunk/c%23
+END
+DeviceType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/50/trunk/c%23/DeviceType.cs
+END
+lightwaverfAPI.sln
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/87/trunk/c%23/lightwaverfAPI.sln
+END
+logo.ico
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/41/trunk/c%23/logo.ico
+END
+MeterReading.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/54/trunk/c%23/MeterReading.cs
+END
+lightwaverfAPI.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/101/trunk/c%23/lightwaverfAPI.csproj
+END
+Sequence.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/51/trunk/c%23/Sequence.cs
+END
+API.cs
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/110/trunk/c%23/API.cs
+END
+logo.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/41/trunk/c%23/logo.jpg
+END
+Room.cs
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/50/trunk/c%23/Room.cs
+END
+packages.config
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/101/trunk/c%23/packages.config
+END
+App.config
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/101/trunk/c%23/App.config
+END
+State.cs
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/51/trunk/c%23/State.cs
+END
+House.cs
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/51/trunk/c%23/House.cs
+END
+SequeceStep.cs
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/51/trunk/c%23/SequeceStep.cs
+END
+Notice.txt
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/44/trunk/c%23/Notice.txt
+END
+Device.cs
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/103/trunk/c%23/Device.cs
+END

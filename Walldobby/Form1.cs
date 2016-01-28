@@ -145,6 +145,10 @@ namespace Walldobby
             DiningTableSpotLumos_Click(null, null);
             Thread.Sleep(200);
             HallwayLumos_Click(null, null);
+            Thread.Sleep(200);
+            button10_Click(null, null);
+            Thread.Sleep(200);
+            WorkspaceLumos_Click(null, null);
         }
 
         private void GlobalNox_Click(object sender, EventArgs e)
@@ -155,14 +159,120 @@ namespace Walldobby
             Thread.Sleep(300);
             HallwayNox_Click(null, null);
             Thread.Sleep(300);
-
+            LargeBedroomLightNox_Click(null, null);
+            Thread.Sleep(300);
+            WorkspaceNox_Click(null, null);
+            Thread.Sleep(300);
+            MainKitchenLightNox_Click(null, null);
+            Thread.Sleep(300);
             PCLedNox_Click(null, null);
             Thread.Sleep(300);
             CouchLedNox_Click(null, null);
             Thread.Sleep(300);
             BedsideLightNox_Click(null, null);
+            
+            
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            API.DeviceOnOff(Constants.KITCHEN, Constants.MAIN_LIGHT, State.On);
+        }
+
+        private void MainKitchenLightNox_Click(object sender, EventArgs e)
+        {
+            API.DeviceOnOff(Constants.KITCHEN, Constants.MAIN_LIGHT, State.Off);
+        }
+
+        private void MainKitchenSlider_Scroll(object sender, EventArgs e)
+        {
+            API.Dim(Constants.KITCHEN, Constants.MAIN_LIGHT, ((TrackBar)sender).Value);
+        }
+
+        private void WorkspaceLumos_Click(object sender, EventArgs e)
+        {
+            API.DeviceOnOff(Constants.KITCHEN, Constants.WORK_LIGHT, State.On);
+        }
+
+        private void WorkspaceNox_Click(object sender, EventArgs e)
+        {
+            API.DeviceOnOff(Constants.KITCHEN, Constants.WORK_LIGHT, State.Off);
+        }
+
+        private void groupBox17_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void WorkspaceSlider_Scroll(object sender, EventArgs e)
+        {
+            API.Dim(Constants.KITCHEN, Constants.WORK_LIGHT, ((TrackBar)sender).Value);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button1_Click(sender, e);
+            Thread.Sleep(100);
+            DiningTableSpotLumos_Click(sender, e);
+        }
+
+        private void LivingroomNox_Click(object sender, EventArgs e)
+        {
+            WindowSpotNox_Click(sender, e);
+            Thread.Sleep(250);
+            DiningTableSpotNox_Click(sender, e);
             Thread.Sleep(300);
-            LargeBedroomLightNox_Click(null, null);
+            PCLedNox_Click(sender, e);
+            Thread.Sleep(300);
+            CouchLedNox_Click(sender, e);
+        }
+
+        private void KitchenLumos_Click(object sender, EventArgs e)
+        {
+            WorkspaceLumos_Click(sender, e);
+            Thread.Sleep(250);
+            button10_Click(sender, e);
+        }
+
+        private void KitchenNox_Click(object sender, EventArgs e)
+        {
+            WorkspaceNox_Click(sender, e);
+            Thread.Sleep(250);
+            MainKitchenLightNox_Click(sender,e);
+        }
+
+        private void HallwayMasterLumos_Click(object sender, EventArgs e)
+        {
+            HallwayLumos_Click(sender, e);
+        }
+
+        private void HallwayMasterNox_Click(object sender, EventArgs e)
+        {
+            HallwayNox_Click(sender, e);
+        }
+
+        private void BedroomLumos_Click(object sender, EventArgs e)
+        {
+            LargeBedroomLightLumos_Click(sender, e);
+            Thread.Sleep(250);
+            BedsideLightLumos_Click(sender, e);
+        }
+
+        private void bedroomNox_Click(object sender, EventArgs e)
+        {
+            LargeBedroomLightNox_Click(sender, e);
+            Thread.Sleep(250);
+            BedsideLightNox_Click(sender, e);
+        }
+
+        private void GlobalNox_Click_1(object sender, EventArgs e)
+        {
+            GlobalNox_Click(sender, e);
+        }
+
+        private void GlobalLumos_Click_1(object sender, EventArgs e)
+        {
+            GlobalLumos_Click(sender, e);
         }
     }
 }

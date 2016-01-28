@@ -53,14 +53,11 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
-      <HintPath>..\..\Heating Control\LightWaveHeatingControl\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Json">
-      <HintPath>packages\System.Json.4.0.20126.16343\lib\net40\System.Json.dll</HintPath>
+      <HintPath>\\172.16.30.20\Documents\Applications\Walldobby\1.0\System.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.CSharp" />

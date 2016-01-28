@@ -11,6 +11,7 @@ namespace Walldobby
         public static int LIVING_ROOM = 1;
         public static int HALLWAY = 2;
         public static int BEDROOM = 3;
+        public static int KITCHEN = 4;
 
         
         public static int WINDOW_SPOT = 1;
@@ -22,6 +23,9 @@ namespace Walldobby
 
         public static int BEDSIDE_LIGHT = 1;
         public static int BEDROOM_LIGHT = 2;
+
+        public static int MAIN_LIGHT = 1;
+        public static int WORK_LIGHT = 2;
 
     }
 }

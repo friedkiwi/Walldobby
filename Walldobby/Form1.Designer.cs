@@ -64,6 +64,9 @@
             this.InsideTemperatureLabel = new System.Windows.Forms.Label();
             this.OutsideTemperatureLabel = new System.Windows.Forms.Label();
             this.TemperatureUpdateTimer = new System.Windows.Forms.Timer(this.components);
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.GlobalLumos = new System.Windows.Forms.Button();
+            this.GlobalNox = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -81,6 +84,7 @@
             this.groupBox10.SuspendLayout();
             this.groupBox12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox13.SuspendLayout();
             this.SuspendLayout();
             // 
             // WindowSpotLumos
@@ -472,11 +476,46 @@
             this.TemperatureUpdateTimer.Interval = 60000;
             this.TemperatureUpdateTimer.Tick += new System.EventHandler(this.TemperatureUpdateTimer_Tick);
             // 
+            // groupBox13
+            // 
+            this.groupBox13.Controls.Add(this.GlobalNox);
+            this.groupBox13.Controls.Add(this.GlobalLumos);
+            this.groupBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox13.Location = new System.Drawing.Point(791, 252);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Size = new System.Drawing.Size(205, 196);
+            this.groupBox13.TabIndex = 8;
+            this.groupBox13.TabStop = false;
+            this.groupBox13.Text = "Global";
+            // 
+            // GlobalLumos
+            // 
+            this.GlobalLumos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GlobalLumos.Location = new System.Drawing.Point(25, 44);
+            this.GlobalLumos.Name = "GlobalLumos";
+            this.GlobalLumos.Size = new System.Drawing.Size(154, 56);
+            this.GlobalLumos.TabIndex = 1;
+            this.GlobalLumos.Text = "Lumos";
+            this.GlobalLumos.UseVisualStyleBackColor = true;
+            this.GlobalLumos.Click += new System.EventHandler(this.GlobalLumos_Click);
+            // 
+            // GlobalNox
+            // 
+            this.GlobalNox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GlobalNox.Location = new System.Drawing.Point(25, 119);
+            this.GlobalNox.Name = "GlobalNox";
+            this.GlobalNox.Size = new System.Drawing.Size(154, 56);
+            this.GlobalNox.TabIndex = 2;
+            this.GlobalNox.Text = "Nox";
+            this.GlobalNox.UseVisualStyleBackColor = true;
+            this.GlobalNox.Click += new System.EventHandler(this.GlobalNox_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1008, 729);
+            this.Controls.Add(this.groupBox13);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox8);
@@ -511,6 +550,7 @@
             this.groupBox10.ResumeLayout(false);
             this.groupBox12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox13.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -552,6 +592,9 @@
         private System.Windows.Forms.Label OutsideTemperatureLabel;
         private System.Windows.Forms.Label InsideTemperatureLabel;
         private System.Windows.Forms.Timer TemperatureUpdateTimer;
+        private System.Windows.Forms.GroupBox groupBox13;
+        private System.Windows.Forms.Button GlobalNox;
+        private System.Windows.Forms.Button GlobalLumos;
     }
 }
 

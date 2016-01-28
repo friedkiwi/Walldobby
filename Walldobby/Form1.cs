@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Net;
 using System.Net.Sockets;
 using LightwaveRF;
+using System.Threading;
 
 namespace Walldobby
 {
@@ -135,6 +136,33 @@ namespace Walldobby
         private void BedsideLightNox_Click(object sender, EventArgs e)
         {
             API.DeviceOnOff(Constants.BEDROOM, Constants.BEDSIDE_LIGHT, State.Off);
+        }
+
+        private void GlobalLumos_Click(object sender, EventArgs e)
+        {
+            button1_Click(null, null);
+            Thread.Sleep(200);
+            DiningTableSpotLumos_Click(null, null);
+            Thread.Sleep(200);
+            HallwayLumos_Click(null, null);
+        }
+
+        private void GlobalNox_Click(object sender, EventArgs e)
+        {
+            WindowSpotNox_Click(null, null);
+            Thread.Sleep(300);
+            DiningTableSpotNox_Click(null, null);
+            Thread.Sleep(300);
+            HallwayNox_Click(null, null);
+            Thread.Sleep(300);
+
+            PCLedNox_Click(null, null);
+            Thread.Sleep(300);
+            CouchLedNox_Click(null, null);
+            Thread.Sleep(300);
+            BedsideLightNox_Click(null, null);
+            Thread.Sleep(300);
+            LargeBedroomLightNox_Click(null, null);
         }
     }
 }

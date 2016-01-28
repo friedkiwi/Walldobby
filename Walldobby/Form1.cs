@@ -35,7 +35,7 @@ namespace Walldobby
         {
             WebClient wc = new WebClient();
 
-            string temp_indoor = wc.DownloadString("https://temp.buttsecks.net/temp.cgi");
+            string temp_indoor = wc.DownloadString("http://temp.buttsecks.net/temp.cgi");
             temp_indoor = temp_indoor.Replace("temperature:", "").Replace("\n", "") + " °C";
 
             string temp_outdoor = wc.DownloadString("http://api.openweathermap.org/data/2.5/find?q=London&units=metric&appid=44db6a862fba0b067b1930da0d769e98");
